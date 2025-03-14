@@ -1,13 +1,27 @@
 body {
-    /***
+   
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  
+    /* Force light theme background and set text color to golden */
+    body {
+      background-color: #ffffff !important;  /* Light background */
+      color: #FFD700 !important;             /* Golden text; adjust if needed */
+    }
+    
+    /* Apply the same text color to links */
+    a {
+      color: #FFD700 !important;
+    }
+    
+    /* Set the overall layout to right-to-left */
+    html,
+    body {
+      direction: rtl !important;
+    }
+    
+    /* Optionally, adjust other common elements as needed */
+    header, nav, .content {
+      direction: rtl !important;
+    }
 }

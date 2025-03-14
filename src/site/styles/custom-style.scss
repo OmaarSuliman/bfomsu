@@ -10,7 +10,7 @@ body {
     }
     
     /* Apply the same text color to links */
-    a {
+    * {
       color: #FFD700 !important;
     }
     
@@ -21,7 +21,7 @@ body {
     }
     
     /* Optionally, adjust other common elements as needed */
-    header, nav, .content {
+    .content {
       direction: rtl !important;
     }
 }

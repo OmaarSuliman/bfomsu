@@ -5,7 +5,8 @@ body {
   
     /* Set the overall layout to right-to-left */
     html,
-    body {
+    body,
+   .content {
       direction: rtl !important;
     }
     

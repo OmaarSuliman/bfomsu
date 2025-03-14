@@ -4,10 +4,6 @@ body {
       // IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
   
     /* Force light theme background and set text color to golden */
-    body {
-      background-color: #ffffff !important;  /* Light background */
-      color: #FFD700 !important;             /* Golden text; adjust if needed */
-    }
     
     /* Apply the same text color to links */
     * {
@@ -16,12 +12,12 @@ body {
     
     /* Set the overall layout to right-to-left */
     html,
-    body {
+    body,
+   .content {
       direction: rtl !important;
     }
     
     /* Optionally, adjust other common elements as needed */
-    .content {
-      direction: rtl !important;
-    }
+   .header {
+      color: #FFD700 !important;  
 }
